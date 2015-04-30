@@ -1,9 +1,10 @@
-# ECE648-HW9
-Performance of Image and Video Compression Techniques<br />
+# ECE648-HW9 #
+
+## Performance of Image and Video Compression Techniques ##
 The purpose of this exercise is to compare the performance of popular image and video compression techniques using *VCDemo* package.
 
 
-# Image Compression
+## Image Compression ##
 Open the image *Lena256B*. Use this image and __set the bit-rate to 1__ for the entire exercise (except in situations where it is not possible).
 
 1. Perform image compression using DPCM using all four prediction models. Which is the best prediction model?
@@ -16,10 +17,10 @@ Open the image *Lena256B*. Use this image and __set the bit-rate to 1__ for the 
   1. SPHIT (Set Partitioning in Hierarchical Trees)<br />Use target bit-rate of 1 and no smoothing.
   1. EZW (Embedded Zerotree Wavelet) <br />Use resolution levels 2, 4, and 6, with encoder bit-rate set to 1.
 
-# Video Compression
+## Video Compression ##
 Open the video sequence *Vectra21Frames* from VCDemo. Compress the video sequence using __MPEG2__ and __H.264__ compression using default parameters. What are the compression ratios obtained using these schemes? (Hint: look at the size of the original vs the compressed file)
 
-# Write-Up
+## Write-Up ##
 1. Do not include print outs of the compressed images. Perform subjective evaluation of compressed images by observing them on the computer screen.
 1. Answers to all the questions in the Procedure part.
 1. Table of *mse* and *PSNR* values for all the techniques and all the compressed images.
